@@ -22,7 +22,7 @@ const bootstrap = async () => {
     database_connection()
     
     app.listen(port, () => {
-        console.log('Server running on port 3000')
+        console.log('Server is running on port 3000')
     })
 }
 
